@@ -1,0 +1,31 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #272727;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'roboto';
+  list-style-type: none;
+}
+.logo-img {
+  height: 50px;
+}
+.home-job-cont {
+  display: flex;
+  align-items: center;
+}
+.home-text {
+  color: #ffffff;
+  padding-right: 20px;
+  text-decoration: none;
+}
+.logout-btn {
+  background-color: #4f46e5;
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ffffff;
+}

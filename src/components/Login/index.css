@@ -1,0 +1,57 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  font-family: 'roboto';
+}
+.website-logo-img {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.username-cont {
+  display: flex;
+  flex-direction: column;
+}
+.username-text {
+  color: #ffffff;
+  font-size: 15px;
+  padding-bottom: 5px;
+  font-weight: 300;
+}
+.user-text {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #2c364c;
+  padding: 5px;
+  padding-right: 90px;
+  margin-bottom: 20px;
+}
+.login-btn {
+  background-color: #4f46e5;
+  color: #ffffff;
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  align-self: stretch;
+}
+.error-msg {
+  color: red;
+}
